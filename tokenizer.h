@@ -341,6 +341,10 @@ namespace jit
 				}
 				buf.clear();
 			}
+
+			// Function scope
+			tokens.push_back({ .type = TokenType::SCOPE_END });
+
 			this->index = 0;
 			return tokens;
 		}
