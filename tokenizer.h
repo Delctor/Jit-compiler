@@ -24,7 +24,7 @@ namespace jit
 		INT,
 		FLOAT,
 		STRING,
-		// Parentesis
+		// Parenthesis
 		OPEN_PAREN,
 		CLOSE_PAREN,
 		// Semicolon
